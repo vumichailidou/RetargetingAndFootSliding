@@ -88,7 +88,7 @@ The add-on requires an IK (Inverse Kinematics) rig and does not work with FK (Fo
 
 1. First, under Target Rig, select the rig that contains the animation you want to process with the add-on and klick on Load Target Bones
 
-![alt text](image-2.png)
+![alt text](images/image-8.png)
 
 2. Click Add Interval (Left/Right) to define the frame range during which the foot should remain planted.
 
