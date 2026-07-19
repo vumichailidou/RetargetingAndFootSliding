@@ -1,0 +1,8 @@
+[68884:83892:0707/022421.768:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[68884:83892:0707/022421.840:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[65684:75176:0707/022427.050:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-AA3040961073F079D60911A899C3B0D7 will be ignored
+[68884:83892:0707/022427.166:ERROR:device_event_log_impl.cc(196)] [02:24:27.166] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[68884:83892:0707/022427.167:ERROR:device_event_log_impl.cc(196)] [02:24:27.166] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[68884:83892:0707/022427.167:ERROR:device_event_log_impl.cc(196)] [02:24:27.167] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[68884:83892:0707/022427.167:ERROR:device_event_log_impl.cc(196)] [02:24:27.167] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[68884:83892:0707/031511.716:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

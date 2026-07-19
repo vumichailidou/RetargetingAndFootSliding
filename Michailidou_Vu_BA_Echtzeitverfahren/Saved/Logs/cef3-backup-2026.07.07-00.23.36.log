@@ -1,0 +1,29 @@
+[62428:69580:0707/002611.979:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[62428:69580:0707/002612.107:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[62428:69580:0707/002627.310:ERROR:device_event_log_impl.cc(196)] [00:26:27.311] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[62428:69580:0707/002627.311:ERROR:device_event_log_impl.cc(196)] [00:26:27.311] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[62428:69580:0707/002627.311:ERROR:device_event_log_impl.cc(196)] [00:26:27.311] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[62428:69580:0707/002627.311:ERROR:device_event_log_impl.cc(196)] [00:26:27.312] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[79048:83332:0707/002629.155:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-3D8DEA918F666AAAC0C2C9A68EEB50AE will be ignored
+[61504:37336:0707/002630.631:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[61504:78924:0707/002630.672:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[61504:78924:0707/002630.672:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[61504:78924:0707/002630.673:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[62428:64496:0707/002631.827:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[62428:69580:0707/002632.156:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[62428:69580:0707/002632.156:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[62428:69580:0707/002632.156:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[62428:69580:0707/002632.156:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[62428:64496:0707/002632.161:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[82936:75304:0707/002633.827:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:69504:0707/002633.896:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:69504:0707/002633.896:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:69504:0707/002633.896:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:75304:0707/002641.536:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:75304:0707/002641.542:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:69504:0707/002641.546:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:69504:0707/002641.546:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[82936:69504:0707/002641.547:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[80928:68208:0707/002847.717:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[80928:68208:0707/002847.717:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[62428:69580:0707/022336.940:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

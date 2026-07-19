@@ -1,0 +1,16 @@
+[62264:68840:0705/185455.133:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[62264:68840:0705/185455.604:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[62264:68840:0705/185513.306:ERROR:device_event_log_impl.cc(196)] [18:55:13.306] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[62264:68840:0705/185513.306:ERROR:device_event_log_impl.cc(196)] [18:55:13.306] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[62264:68840:0705/185513.306:ERROR:device_event_log_impl.cc(196)] [18:55:13.306] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[62264:68840:0705/185513.306:ERROR:device_event_log_impl.cc(196)] [18:55:13.306] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[75556:57876:0705/185513.612:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-2A5B283483AB3C9C04253361C33E6AF2 will be ignored
+[71204:32296:0705/190755.902:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[71204:32296:0705/190755.968:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[71204:32296:0705/190801.452:ERROR:device_event_log_impl.cc(196)] [19:08:01.452] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[71204:32296:0705/190801.453:ERROR:device_event_log_impl.cc(196)] [19:08:01.453] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[71204:32296:0705/190801.453:ERROR:device_event_log_impl.cc(196)] [19:08:01.453] USB: usb_device_win.cc:66 Failed to open \\?\usb#vid_056a&pid_032e#5&521a615&0&5#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[71204:32296:0705/190801.453:ERROR:device_event_log_impl.cc(196)] [19:08:01.453] USB: usb_device_win.cc:66 Failed to open \\?\usb#root_hub30#4&1148bc98&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}: Zugriff verweigert (0x5)
+[16224:50980:0705/190803.194:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-B59C0FFDC9D71986A0BCA58F6FA7A916 will be ignored
+[71204:32296:0705/191959.408:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[62264:68840:0705/192055.390:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
