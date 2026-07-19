@@ -1,4 +1,4 @@
-# Blender FK Retargeter
+# Blender FK Retargeter Add On
 
 This add-on was developed for Blender 5.0 and later.
 
@@ -39,3 +39,38 @@ After installation, the add-on will appear in the Sidebar.
 5. Once you've finished setting everything up, click Calculate Retargeting. A dialog will appear where you can specify the frame range for the retargeting process.
 
     After confirming the frame range, the add-on will retarget the animation.
+
+For best results, it is recommended to create a separate Root bone in your skeleton hierarchy. This helps ensure a smoother and more reliable retargeting process.
+
+You can find examples of the retargeted results in the included Michailidou_Vu_BA_Retargeting_Testfaelle.blend file.
+_____________________________________________________________________
+
+# Blender Root Motion Recalculation Add On
+
+The Root Motion Recalculator creates root motion for your animation if the existing root motion is broken or if you only have an in-place animation.
+
+It is recommended to remove the transformations from the root bone before recalculating the root motion.
+ 
+1. In the Armature section, select the skeleton whose root motion should be recalculated and specify its root bone in the corresponding text field. 
+    ![alt text](image.png)
+
+2. Now select the foot bones for Left Foot and Right Foot. The Ball bone is recommended here, as it is usually aligned parallel to the ground.
+
+    In Global Z Threshold, you can define the distance to the ground. If the foot position falls below this value, it will be detected as making contact with the ground.
+
+    The foot stores the first frame at which contact occurs and compensates for sliding movement by adjusting the root motion accordingly.
+
+3. Optionally, you can choose between Head and Tail under Bone Type.
+
+    This determines whether the system calculates the threshold based on the tip of the bone (Tail) or the base of the bone (Head).
+    ![alt text](image-1.png)
+
+Once you are finished, click Start Root Calculator. A window will appear asking you to specify the frame range for the reconstruction.
+
+After confirming again, the animation should now have a generated root motion.
+
+In the Michailidou_Vu_BA_RootMotionAddOn.blend file, you can view several example results.
+_____________________________________________________________________
+
+# Blender Foot Plant Add On
+
