@@ -74,3 +74,24 @@ _____________________________________________________________________
 
 # Blender Foot Plant Add On
 
+The Blender Foot Plant Add-on is provided as a separate ZIP file and therefore needs to be installed separately.
+
+Since it was developed for Blender 5.0 or later, it is recommended to use this version of Blender.
+
+In Blender, go to Edit → Preferences, select Add-ons from the menu on the left, and click Install from Disk... in the upper-right corner. Then select the FootPlantAddOn.zip file.
+
+Once the installation is complete, the add-on will appear in the Sidebar and is ready to use.
+
+With the Foot Plant Add-on, the artist defines the frame range during which the feet should remain planted and not slide. Throughout this interval, the feet are anchored in place to prevent foot sliding.
+
+The add-on requires an IK (Inverse Kinematics) rig and does not work with FK (Forward Kinematics).
+
+1. First, under Target Rig, select the rig that contains the animation you want to process with the add-on and klick on Load Target Bones
+
+![alt text](image-2.png)
+
+2. Click Add Interval (Left/Right) to define the frame range during which the foot should remain planted.
+
+    Next, select the corresponding end effector for each leg, as well as the toe bone. The toe bone is used to correct vertical foot sliding. This correction requires the Foot Roll Correction option to be enabled.
+
+    Once everything has been configured, click Run Foot Plant to apply the foot planting.
