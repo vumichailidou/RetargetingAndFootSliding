@@ -52,7 +52,7 @@ The Root Motion Recalculator creates root motion for your animation if the exist
 It is recommended to remove the transformations from the root bone before recalculating the root motion.
  
 1. In the Armature section, select the skeleton whose root motion should be recalculated and specify its root bone in the corresponding text field. 
-    ![alt text](image.png)
+    ![alt text](images/image.png)
 
 2. Now select the foot bones for Left Foot and Right Foot. The Ball bone is recommended here, as it is usually aligned parallel to the ground.
 
@@ -63,7 +63,7 @@ It is recommended to remove the transformations from the root bone before recalc
 3. Optionally, you can choose between Head and Tail under Bone Type.
 
     This determines whether the system calculates the threshold based on the tip of the bone (Tail) or the base of the bone (Head).
-    ![alt text](image-1.png)
+    ![alt text](images/image-1.png)
 
 Once you are finished, click Start Root Calculator. A window will appear asking you to specify the frame range for the reconstruction.
 
