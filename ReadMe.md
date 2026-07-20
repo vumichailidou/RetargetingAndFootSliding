@@ -9,7 +9,7 @@ You can find the different retargeting examples in the Retargeting folder. The f
 
 1. In the parameters, assign the IK Rig of the Mannequin and the IK Rig of your character respectively.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
     This step defines the mapping of the corresponding joints between the two rigs.
 
@@ -25,7 +25,7 @@ You can find the different retargeting examples in the Retargeting folder. The f
 
 In the lower-left section, create a Full Body IK solver by clicking + Add New Solver.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 3. Select the end joint of the hand and leg chains, which in most cases are the hand and foot bones. Right-click on the selected joint and choose New IK Goal to create an IK chain from it.
 
@@ -33,14 +33,14 @@ In the lower-left section, create a Full Body IK solver by clicking + Add New So
 
     It creates a more natural deformation and lets the IK solver affect the connected joints while maintaining the overall pose.
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 
 4. Afterward, open the Animation Blueprint (ABP_Unarmed) of each retargeted character. In the Anim Graph, connect the corresponding retargeting asset (UE_RET-01, UE_RET-02, or UE_RET-03) to the Output Pose node.
 
 
 
-![alt text](image.png)
+![alt text](images/image.png)
 
     In the Blueprint of the respective character, the Skeletal Mesh needs to be attached as a child component of the Mannequin.
 
@@ -50,22 +50,22 @@ In the lower-left section, create a Full Body IK solver by clicking + Add New So
 
     The character should now be playable and has inherited all the logic from the mannequin.
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 _____________________________________________________________
 
 # Root Motion
 
 To use Root Motion, we first need an animation that actually contains Root Motion. You can often recognize such animations by the red trail they leave behind.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 1. First, enable Root Motion by checking the "Enable Root Motion" option.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 2. To prevent the animation from snapping back to its starting position, open your Animation Blueprint, go to Class Defaults, and set the Root Motion Mode to either Root Motion from Everything or Root Motion from Montages Only.
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 The Root Motion animation should now work correctly.
 
@@ -76,11 +76,11 @@ _____________________________________________________________
 
 The ABP_Unarmed already includes several techniques for reducing foot sliding, which can be enabled or disabled using the 1–4 keys. The Control Rig implementation is, in theory, the same as the Foot Placement node.
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 I recreated my own Foot Placement system to take a closer look at how it works. Since both implementations calculate the target position for the Leg IK, the built-in Foot Placement node and the custom Foot Placement system cannot run at the same time. Therefore, one of them must always be disconnected.
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 The logic can be found in the Event Graph.
 _____________________________________________________________
@@ -91,7 +91,7 @@ Stride Warping dynamically adjusts the character's stride length based on its mo
 
 Since the character's movement is driven by a Blend Space according to its current speed, it is recommended to switch the Mode to Graph and set the Ground Speed variable as the Locomotion Speed. Finally, in the Settings, simply assign the Pelvis Bone and define the IK bone chains.
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 For systems like these to work, the skeleton needs IK bones that define the target positions. By default, the Unreal Engine Mannequin already includes this setup.
 
@@ -105,8 +105,8 @@ Virtual Bones automatically snap to their target bones, so there is no need to p
 
 Once this hierarchy has been created, it can be used as the target for systems such as the built-in Foot Placement node or a custom Foot Placement implementation.
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 I replaced the Walk animation with the Run animation in the Blend Space to make the effects of Stride Warping more noticeable. You can also test this setup in the Michailidou_Vu_BA_Echtzeitverfahren project.
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
